@@ -15,9 +15,9 @@ public class Ascend {
 
 	public static void main(String[] args) {
 		int lim = Integer.parseInt(args[0]);
-		int num1 = (int) (Math.random() * lim);
-		int num2 = (int) (Math.random() * lim);
-		int num3 = (int) (Math.random() * lim);
+		int num1 = (int)(Math.random() * lim);
+		int num2 = (int)(Math.random() * lim);
+		int num3 = (int)(Math.random() * lim);
 		System.out.println(num1 + " " + num2 + " " + num3);
 
 		int max = Math.max(num1, num2);
@@ -25,6 +25,6 @@ public class Ascend {
 		int min = Math.min(num1, num2);
 		min = Math.min(min, num3);
 		int middle = num1 + num2 + num3 - (max + min);
-		System.out.print(max + " " + middle + " " + min);
+		System.out.print(min + " " + middle + " " + max);
 	}
 }

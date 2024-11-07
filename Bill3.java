@@ -11,11 +11,14 @@ public class Bill3 {
 	 * message.
 	 * % java Bill3 Ron Lisa Dan 100
 	 * Dear Dan, Lisa, and Ron: pay 34.0 Shekels each.
-	 * In GitHub the messege is: Dear Ron, Lisa, and Dan: pay 34.0 Shekels each.
 	 */
 
 	public static void main(String[] args) {
-		//My code....
+		String name1 = args[0], name2 = args[1], name3 = args[2];
+		int number = Integer.parseInt(args[3]);
+		double avg = Math.ceil(number / 3);
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 +
+				": pay " + avg + " shekels each");
 	}
 
 }
