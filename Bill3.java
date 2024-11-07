@@ -11,6 +11,7 @@ public class Bill3 {
 	 * message.
 	 * % java Bill3 Ron Lisa Dan 100
 	 * Dear Dan, Lisa, and Ron: pay 34.0 Shekels each.
+	 * In GitHub the messege is: Dear Ron, Lisa, and Dan: pay 34.0 Shekels each.
 	 */
 
 	public static void main(String[] args) {

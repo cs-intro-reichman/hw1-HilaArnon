@@ -1,11 +1,6 @@
 // Represents the hh:mm time format using an AM/PM format. 
 public class TimeFormat {
 
-	// לשנות לקבלת קלט על ידי args
-	// לבדוק אם הקלט הוא מחרוזת או שני טבעיים
-	// לא בומן אם בשעות צריך לשים 0 לפני אם יש צורך כי בקלט פלט נראה שלא אבל בהנחיות
-	// כן
-
 	/*
 	 * Fifth Program (30 points)
 	 * The TimeFormat program gets a time input that uses the 24-hour hh:mm format,
