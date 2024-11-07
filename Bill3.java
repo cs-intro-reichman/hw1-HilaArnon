@@ -17,7 +17,7 @@ public class Bill3 {
 		String name1 = args[0], name2 = args[1], name3 = args[2];
 		int number = Integer.parseInt(args[3]);
 		double avg = Math.ceil(number / 3.0);
-		System.out.println("Dear " + name1 + ", " + name2 + ", and " + name3 +
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 +
 				": pay " + avg + " Shekels each");
 	}
 
