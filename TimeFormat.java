@@ -5,7 +5,7 @@ public class TimeFormat {
 	 * Fifth Program (30 points)
 	 * The TimeFormat program gets a time input that uses the 24-hour hh:mm format,
 	 * and prints the time using the 12-hour AM/PM format.
-	 * 12:00 is also PM 
+	 * 12:00 is also PM (from GitHub...)
 	 * % TimeFormat 10:15
 	 * 10:15 AM
 	 * % TimeFormat 17:08
@@ -38,7 +38,7 @@ public class TimeFormat {
 		}
 
 		// output
-		if (check0) {
+		if (!check0) {
 			if (checkPM) { // PM
 				System.out.print(hours + ":" + newMinutes + " PM");
 			} else { // AM
