@@ -19,10 +19,13 @@ public class FVCalc {
 
 	public static void main(String[] args) {
 		int currentValue = Integer.parseInt(args[0]);
-		double rate = Double.parseDouble(args[1]) / 100;
+		double rate = Double.parseDouble(args[1]);
 		int n = Integer.parseInt(args[2]);
-		double futureValue = currentValue * Math.pow((1 + (rate)), n);
-		System.out.print("After " + n + " year a $" + currentValue + " saved at "
-						+ rate + "% will yield $" + (int) futureValue);
+		/* I have to write in the formula rate/100 and not just rate, because I need the rate
+		 * to be percentage as a decimal - this is also written in the assignment
+		 */
+		double futureValue = currentValue * Math.pow((1 + (rate / 100)), n);
+		System.out.print("After " + n + " years a $" + currentValue + " saved at "
+				+ rate + "% will yield $" + (int) futureValue);
 	}
 }
